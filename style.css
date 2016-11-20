@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+body {
+    display: table;
+    background-color: lightgrey;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    line-height: 1;
+    width: 100%; // Add this
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    display: table-row;
+}
+
+#events {
+    display: inline-block;
+    background: blue;
+    width: 50%;
+    height: 100%;
+}
+
+#news {
+    display: inline-block;
+    background: red;
+    width: 50%;
+    height: 100%;
+}
